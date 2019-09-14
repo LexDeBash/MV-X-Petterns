@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A87A1F5823264B6500CC0846 /* GreetingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5723264B6500CC0846 /* GreetingProtocols.swift */; };
+		A87A1F5A232657DA00CC0846 /* GreeningPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F59232657DA00CC0846 /* GreeningPresenter.swift */; };
+		A87A1F5C232657EE00CC0846 /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5B232657EE00CC0846 /* GreetingInteractor.swift */; };
+		A87A1F5E2326580900CC0846 /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5D2326580900CC0846 /* GreetingConfigurator.swift */; };
 		A8BB1B4A231A6789007087EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1B49231A6789007087EB /* AppDelegate.swift */; };
 		A8BB1B4C231A6789007087EB /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BB1B4B231A6789007087EB /* GreetingViewController.swift */; };
 		A8BB1B4F231A6789007087EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BB1B4D231A6789007087EB /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A87A1F5723264B6500CC0846 /* GreetingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingProtocols.swift; sourceTree = "<group>"; };
+		A87A1F59232657DA00CC0846 /* GreeningPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeningPresenter.swift; sourceTree = "<group>"; };
+		A87A1F5B232657EE00CC0846 /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		A87A1F5D2326580900CC0846 /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
 		A8BB1B46231A6789007087EB /* MV(X)Petterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MV(X)Petterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BB1B49231A6789007087EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BB1B4B231A6789007087EB /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A87A1F562326499200CC0846 /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				A8BB1B4B231A6789007087EB /* GreetingViewController.swift */,
+				A87A1F59232657DA00CC0846 /* GreeningPresenter.swift */,
+				A87A1F5B232657EE00CC0846 /* GreetingInteractor.swift */,
+				A87A1F5D2326580900CC0846 /* GreetingConfigurator.swift */,
+				A87A1F5723264B6500CC0846 /* GreetingProtocols.swift */,
+			);
+			path = Greeting;
+			sourceTree = "<group>";
+		};
 		A8BB1B3D231A6789007087EB = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +76,8 @@
 		A8BB1B48231A6789007087EB /* MV(X)Petterns */ = {
 			isa = PBXGroup;
 			children = (
+				A87A1F562326499200CC0846 /* Greeting */,
 				A8BB1B49231A6789007087EB /* AppDelegate.swift */,
-				A8BB1B4B231A6789007087EB /* GreetingViewController.swift */,
 				A8BB1B5B231A68D3007087EB /* Person.swift */,
 				A8BB1B4D231A6789007087EB /* Main.storyboard */,
 				A8BB1B50231A678A007087EB /* Assets.xcassets */,
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87A1F5823264B6500CC0846 /* GreetingProtocols.swift in Sources */,
+				A87A1F5C232657EE00CC0846 /* GreetingInteractor.swift in Sources */,
+				A87A1F5E2326580900CC0846 /* GreetingConfigurator.swift in Sources */,
 				A8BB1B5C231A68D3007087EB /* Person.swift in Sources */,
 				A8BB1B4C231A6789007087EB /* GreetingViewController.swift in Sources */,
 				A8BB1B4A231A6789007087EB /* AppDelegate.swift in Sources */,
+				A87A1F5A232657DA00CC0846 /* GreeningPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

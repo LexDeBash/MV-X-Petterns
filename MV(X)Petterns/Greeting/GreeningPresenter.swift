@@ -8,7 +8,11 @@
 
 import Foundation
 
-class GreetingPresenter: GreetingPresenterProtocol {
+protocol GreetingPresenterProtocol: class {
+    func didTapShowGreetingButton()
+}
+
+class GreetingPresenter: GreetingPresenterProtocol, GreetingInteractorOutput {
     
     weak var view: GreetingViewProtocol!
     var interactor: GreetingInteractorProtocol!

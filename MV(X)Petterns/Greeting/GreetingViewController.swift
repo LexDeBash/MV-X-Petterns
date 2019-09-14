@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol GreetingViewProtocol: class {
+    func setGreeting(greeting: String)
+}
+
 class GreetingViewController: UIViewController, GreetingViewProtocol {
     
     var presenter: GreetingPresenterProtocol!

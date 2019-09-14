@@ -8,6 +8,10 @@
 
 import Foundation
 
+protocol GreetingConfiguratorProtocol: class {
+    func configure(with viewController: GreetingViewController)
+}
+
 class GreetingConfigurator: GreetingConfiguratorProtocol {
     
     func configure(with viewController: GreetingViewController) {

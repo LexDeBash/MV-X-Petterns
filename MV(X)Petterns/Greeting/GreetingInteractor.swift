@@ -8,11 +8,19 @@
 
 import Foundation
 
+protocol GreetingInteractorProtocol {
+    func provideGreetingData()
+}
+
+protocol GreetingInteractorOutput: class {
+    func receiveGreetingData(greetingData: GreetingData)
+}
+
 class GreetingInteractor: GreetingInteractorProtocol {
     
-    weak var presenter: GreetingPresenterProtocol!
+    weak var presenter: GreetingInteractorOutput!
     
-    required init(presenter: GreetingPresenterProtocol) {
+    init(presenter: GreetingInteractorOutput) {
         self.presenter = presenter
     }
     

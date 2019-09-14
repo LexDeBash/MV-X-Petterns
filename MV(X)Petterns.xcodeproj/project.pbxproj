@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A87A1F5823264B6500CC0846 /* GreetingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5723264B6500CC0846 /* GreetingProtocols.swift */; };
+		A87A1F5823264B6500CC0846 /* GreetingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5723264B6500CC0846 /* GreetingData.swift */; };
 		A87A1F5A232657DA00CC0846 /* GreeningPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F59232657DA00CC0846 /* GreeningPresenter.swift */; };
 		A87A1F5C232657EE00CC0846 /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5B232657EE00CC0846 /* GreetingInteractor.swift */; };
 		A87A1F5E2326580900CC0846 /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A1F5D2326580900CC0846 /* GreetingConfigurator.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A87A1F5723264B6500CC0846 /* GreetingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingProtocols.swift; sourceTree = "<group>"; };
+		A87A1F5723264B6500CC0846 /* GreetingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingData.swift; sourceTree = "<group>"; };
 		A87A1F59232657DA00CC0846 /* GreeningPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeningPresenter.swift; sourceTree = "<group>"; };
 		A87A1F5B232657EE00CC0846 /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
 		A87A1F5D2326580900CC0846 /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 				A87A1F59232657DA00CC0846 /* GreeningPresenter.swift */,
 				A87A1F5B232657EE00CC0846 /* GreetingInteractor.swift */,
 				A87A1F5D2326580900CC0846 /* GreetingConfigurator.swift */,
-				A87A1F5723264B6500CC0846 /* GreetingProtocols.swift */,
+				A87A1F5723264B6500CC0846 /* GreetingData.swift */,
 			);
 			path = Greeting;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87A1F5823264B6500CC0846 /* GreetingProtocols.swift in Sources */,
+				A87A1F5823264B6500CC0846 /* GreetingData.swift in Sources */,
 				A87A1F5C232657EE00CC0846 /* GreetingInteractor.swift in Sources */,
 				A87A1F5E2326580900CC0846 /* GreetingConfigurator.swift in Sources */,
 				A8BB1B5C231A68D3007087EB /* Person.swift in Sources */,

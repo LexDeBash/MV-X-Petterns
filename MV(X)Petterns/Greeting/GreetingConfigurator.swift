@@ -14,7 +14,6 @@ final class GreetingConfigurator {
     
     func configure(with view: GreetingViewController) {
         let viewController = view
-//        let interactor = GreetingInteractor(person: Person(name: "Tim", surname: "Cook"))
         let interactor = GreetingInteractor()
         let presenter = GreetingPresenter()
         viewController.interactor = interactor
